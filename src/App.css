@@ -1,0 +1,78 @@
+.App {
+
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url('./salon.jpg'); 
+  background-size: cover;         /* Cover the entire page */
+  background-position: center;    /* Center the image */
+  background-attachment: fixed;   
+  min-height: 100vh;              /* Ensure the body takes up the full height */
+  display: flex;
+  flex-direction: column;
+  }
+  npm
+  
+  .App-header {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    color: black !important;
+    padding: 20px !important;
+    background: rgba(0, 0, 0, 0.5) !important; 
+    min-height: 100vh !important;
+  }
+  
+  .App-header {
+                  /* Enable flexbox */
+    justify-content: center;         /* Center horizontally */
+    align-items: center;             /* Center vertically */
+    flex-direction: column;          /* Stack content vertically */
+    text-align: center;
+    color: white;                    /* Set text color to white */
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add transparency over the image */
+    min-height: 10vh;               /* Ensure the header takes up the full height of the viewport */
+  }
+  
+  .App-header h1 {
+    font-size: 3rem;
+    margin: 0;                       /* Remove any default margin */
+  }
+  
+  .App-header p {
+    font-size: 1.5rem;
+  }
+  
+  .App-main {
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  .user-profile h2 {
+    color: white;  /* Set the text color to white */
+  }
+  .user-profile label {
+    color: white;  /* Change label text color to white */
+  }
+  /* Targeting 'h2' in the AppointmentBooking component */
+.appointment-booking h2 {
+  color: white;  /* Change the 'Book an Appointment' text color to white */
+}
+.appointment-booking label{
+  color: white;  /* Change the 'Book an Appointment' text color to white */
+}
+.confirmation h2 {
+  color: white;  /* Change the 'Book an Appointment' text color to white */
+}
+.confirmation p{
+  color: white;  /* Change the 'Book an Appointment' text color to white */
+}
+
+  footer {
+    text-align: center;
+    margin-top: 600px;
+    color: white;
+  }
